@@ -1,0 +1,36 @@
+  # Contributing Policy
+
+## 1. Before you contribute
+
+Thank you for wanting to contribute to the SCWDB-SeniorProject repository.
+Before you start to contribute, however, please make youre self familiar with the SCWDB'S Code of Condcut.
+
+This contributing page outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable contributing policies.
+
+We invite all those who participate in SCWDBSenior Project to help us to contribute within the contributing rules listed below.
+
+
+## 2. Contributing Guidelines
+
+THe goal of this Contributing Guideline is to increase open source citizenship by encouraging participants to recognize and strengthen the relationships between our actions and their effects on our community. In doing so, we expect you to adhere to the following guidelines:
+
+A). When working on a specific project file you MUST name it in the following naming convention: (LastName_filename).
+    An example of this would be (Fowler_SignInForm). 
+    If the file is NOT named correctly, any pull requests/merge requests WILL NOT be performed.
+
+B). If there are multiple attempts at editing/enhancing/correcting a file, that file MUST be named in the convention already discused,       and the edition of the editing/enhancing/correcting MUST be included. 
+    An example of this would be (Fowler_SignInForm(2)).  [This shows that this file is the Second edition]
+    This is important due to the fact that each edition can be tracked and any conflict (uploading a wrong file, suspected plagarism,       ect) can be addressed in a timely and accurate fashion.
+    
+C). Any pull requests MUST BE APPROVED BEFORE MERGING! This means that any pull request must be checked for bugs, can run without error,       and has been approved by the repository as satisfactory BEFORE IT IS MERGED!.  
+    Any memberthat forcing a merge, and/or ignores the rules of Section 2, subsection C, of the Contributing Policy will face penalties     up to and including the removal of that person as a contributing member. 
+    
+D). COMMUNICATION IS KEY! If there is a correction/enhancement to be made in ANY code, please contact either the repository's owner or       the contributing member whose code contains the correction/enhancement. This can be done be either leaving a comment on the             respository or contacting them directly via other communication channels if you have access to them.
+    *IMPORTANT NOTE* When reaching out to the contributor via a comment or other communication channel, it is important that you do so        respectfully. All comments that break the Code of Conduct WILL NOT BE TOLERATED! Contributes who break the Code of Conduct will          receive penalties, as outlined in the Code of Conduct.
+    
+## 3. Fair Play Rules
+
+The goal of using the repository is to have a place where all of the contributors code can and will be collaborated on to create and enhance the final product of this project. With that said, ALL GROUP MEMBERS MUST WORK TOGETHER! If it is found that any group member is not particpating/"pulling their weight" (unless otherwise agreed upon or discussed), that member will be asked to particpate more. If that member is still not contributing on an equal level (as according to the agreement of the team), a group discussion will be held, with a moderator to decide whether that member will still be part of the team. 
+
+
+
