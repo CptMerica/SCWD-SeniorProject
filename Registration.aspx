@@ -22,6 +22,7 @@
             <asp:ListItem>Bachelor&#39;s Degree</asp:ListItem>
             <asp:ListItem>Master&#39;s Degree</asp:ListItem>
             <asp:ListItem>Doctorate PhD</asp:ListItem>
+            <asp:ListItem>None </asp:ListItem>
         </asp:DropDownList>
 
         <p>County of Residence:</p>
