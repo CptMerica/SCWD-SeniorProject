@@ -5,10 +5,13 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-public partial class Registration : System.Web.UI.Page
+namespace Registration
 {
-    protected void Page_Load(object sender, EventArgs e)
+    public partial class Contact : Page
     {
+        protected void Page_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 }
