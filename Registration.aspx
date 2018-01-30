@@ -30,6 +30,7 @@
             <asp:ListItem>Fayette</asp:ListItem>
             <asp:ListItem>Westmoreland</asp:ListItem>
             <asp:ListItem>Allegheny</asp:ListItem>
+            <asp:ListItem>Indiana</asp:ListItem>
             <asp:ListItem>Other</asp:ListItem>
         </asp:DropDownList>
         <p>Employment Status:</p>
