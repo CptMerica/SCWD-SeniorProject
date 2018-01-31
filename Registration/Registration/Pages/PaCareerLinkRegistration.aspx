@@ -5,26 +5,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-<style>
-    body 
-    {
-        background-color: white;
-        outline-style:solid;
-        border: solid;
-        border-color:red; 
-        font-family: Verdana;
-        color: darkslateblue
-         }
-</style>
+    <link href ="SystemStyleSheet.css" rel="stylesheet" type="text/css" />
 
 </head>
 <body>
     <form id="form1" runat="server">
     <div>
-    <h1>
-
-        <img src="pacareerlink.jpg" style="height: 93px; width: 459px" /></h1>
-        <h1>Registration Form</h1>
+        <h1><img src="pacareerlink.jpg" style="height: 93px; width: 459px" /></h1>
+        <h2>Registration Form</h2>
         <p>Please complete the form below to register.</p>
         <p>Name:     <asp:TextBox ID="NameTextBox" runat="server"></asp:TextBox></p>
         <p>Last Four of Social Security Number: <asp:TextBox ID="SSNTextBox" runat="server"></asp:TextBox></p>
@@ -94,6 +82,8 @@
 
         <asp:Button ID="SubmitButton" runat="server" Text="Submit" />
 
-        &nbsp;</form>
+        &nbsp;
+        </div>
+        </form>
 </body>
 </html>

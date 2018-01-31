@@ -180,8 +180,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Account\Web.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="pacareerlink.jpg" />
-    <Content Include="PaCareerLinkRegistration.aspx" />
+    <Content Include="Pages\pacareerlink.jpg" />
+    <Content Include="Pages\PaCareerLinkRegistration.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -215,7 +215,8 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Site.Master" />
-    <Content Include="Start.aspx" />
+    <Content Include="Pages\Start.aspx" />
+    <Content Include="Pages\SystemStyleSheet.css" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -365,11 +366,11 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="PaCareerLinkRegistration.aspx.cs">
+    <Compile Include="Pages\PaCareerLinkRegistration.aspx.cs">
       <DependentUpon>PaCareerLinkRegistration.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="PaCareerLinkRegistration.aspx.designer.cs">
+    <Compile Include="Pages\PaCareerLinkRegistration.aspx.designer.cs">
       <DependentUpon>PaCareerLinkRegistration.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -387,11 +388,11 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
-    <Compile Include="Start.aspx.cs">
+    <Compile Include="Pages\Start.aspx.cs">
       <DependentUpon>Start.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Start.aspx.designer.cs">
+    <Compile Include="Pages\Start.aspx.designer.cs">
       <DependentUpon>Start.aspx</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
