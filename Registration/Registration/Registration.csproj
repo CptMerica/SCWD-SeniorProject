@@ -180,6 +180,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Account\Web.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Pages\Admin.aspx" />
     <Content Include="Pages\pacareerlink.jpg" />
     <Content Include="Pages\PaCareerLinkRegistration.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -366,6 +367,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Pages\Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\PaCareerLinkRegistration.aspx.cs">
       <DependentUpon>PaCareerLinkRegistration.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

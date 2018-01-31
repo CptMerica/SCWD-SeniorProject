@@ -31,6 +31,15 @@ namespace Registration {
         protected global::System.Web.UI.WebControls.TextBox NameTextBox;
         
         /// <summary>
+        /// namefieldlabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label namefieldlabel;
+        
+        /// <summary>
         /// SSNTextBox control.
         /// </summary>
         /// <remarks>
@@ -38,6 +47,15 @@ namespace Registration {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox SSNTextBox;
+        
+        /// <summary>
+        /// SSNfieldlabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label SSNfieldlabel;
         
         /// <summary>
         /// EDUDropDownList control.

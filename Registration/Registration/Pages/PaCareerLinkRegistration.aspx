@@ -14,8 +14,12 @@
         <h1><img src="pacareerlink.jpg" style="height: 93px; width: 459px" /></h1>
         <h2>Registration Form</h2>
         <p>Please complete the form below to register.</p>
-        <p>Name:     <asp:TextBox ID="NameTextBox" runat="server"></asp:TextBox></p>
-        <p>Last Four of Social Security Number: <asp:TextBox ID="SSNTextBox" runat="server"></asp:TextBox></p>
+        <p>Name:     <asp:TextBox ID="NameTextBox" runat="server"></asp:TextBox>
+        <asp:Label ID="namefieldlabel" runat="server" ForeColor="Red"></asp:Label>
+        </p>
+        <p>Last Four of Social Security Number: <asp:TextBox ID="SSNTextBox" runat="server"></asp:TextBox>
+            <asp:Label ID="SSNfieldlabel" runat="server" ForeColor="Red"></asp:Label>
+        </p>
         <p>Education:</p>
         <asp:DropDownList ID="EDUDropDownList" runat="server">
             <asp:ListItem>High School Diploma/GED</asp:ListItem>
@@ -80,7 +84,7 @@
             <asp:ListItem>No</asp:ListItem>
             </asp:RadioButtonList></p>
 
-        <asp:Button ID="SubmitButton" runat="server" Text="Submit" />
+        <asp:Button ID="SubmitButton" runat="server" Text="Submit" OnClick="SubmitButton_Click" />
 
         &nbsp;
         </div>

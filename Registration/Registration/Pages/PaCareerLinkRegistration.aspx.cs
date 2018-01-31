@@ -15,11 +15,23 @@ namespace Registration
 
         }
 
-        protected void RegistrationSubmitButton_Click(object sender, EventArgs e)
+        protected void SubmitButton_Click(object sender, EventArgs e)
         {
-            
-            
-             
-        }
+            //Text Box Reqiured Field Validation
+            if (NameTextBox.Text == "")
+            {
+                namefieldlabel.Text = "*Field Required";
+            }
+
+            if (SSNTextBox.Text =="")
+            {
+              SSNfieldlabel.Text = "*Field Required";
+            }
+            //End validation
+
+
+
+        }//end submit button
     }
-}
+
+}//end namespace

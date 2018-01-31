@@ -1,5 +1,5 @@
-﻿
-body {
+﻿body 
+{
         background-color: white;
         outline-style:solid;
         border: solid;
@@ -8,3 +8,4 @@ body {
         color: blue
 
 }
+

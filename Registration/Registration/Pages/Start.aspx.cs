@@ -30,7 +30,7 @@ namespace Registration
                 if (password.Equals(passwordIndex))
                 {
 
-                    Response.Redirect("PACareerLinkRegistration.aspx");
+                    Response.Redirect("Admin.aspx");
                 }
             }
 
