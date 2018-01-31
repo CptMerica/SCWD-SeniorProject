@@ -5,16 +5,27 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+<style>
+    body 
+    {
+        background-color: navy;
+        outline-style:solid;
+        border: solid;
+        border-color:yellow; 
+        font-family: Verdana;
+        color: white
+         }
+</style>
+
 </head>
 <body>
     <form id="form1" runat="server">
     <div>
     <h1>PA Career Link Registration</h1>
         <p>Please complete the form below to register.</p>
-        <p>First Name:     <asp:TextBox ID="FNameTextBox" runat="server"></asp:TextBox></p>
-        <p>Last Name: <asp:TextBox ID="LNameTextBox" runat="server"></asp:TextBox></p>
+        <p>Name:     <asp:TextBox ID="NameTextBox" runat="server"></asp:TextBox></p>
         <p>Last Four of Social Security Number: <asp:TextBox ID="SSNTextBox" runat="server"></asp:TextBox></p>
-        <p>Education</p>
+        <p>Education:</p>
         <asp:DropDownList ID="EDUDropDownList" runat="server">
             <asp:ListItem>High School Diploma/GED</asp:ListItem>
             <asp:ListItem>Certification</asp:ListItem>
@@ -61,9 +72,26 @@
             <asp:ListItem>JobGateway Enrollment</asp:ListItem>
             <asp:ListItem></asp:ListItem>
         </asp:DropDownList>
+    <br />
+        <p>Are you a Veteran? <asp:RadioButtonList ID="VetRadioButtonList" runat="server" Height="16px" Width="151px" RepeatDirection="horizontal" TextAlign="left">
+            <asp:ListItem>Yes</asp:ListItem>
+            <asp:ListItem>No</asp:ListItem>
+            </asp:RadioButtonList></p>
     
-    
-    
+        <p>Are you over the age of 55? </p>
+        <asp:RadioButtonList ID="AgeRadioButtonList" runat="server" Height="16px" Width="151px" RepeatDirection="horizontal" TextAlign="left">
+            <asp:ListItem>Yes</asp:ListItem>
+            <asp:ListItem>No</asp:ListItem>
+        </asp:RadioButtonList>
+
+        <p>Are you between the ages of 14 and 24? <asp:RadioButtonList ID="YouthRadioButtonList" runat="server"  Height="16px" Width="151px" RepeatDirection="horizontal" TextAlign="left">
+            <asp:ListItem>Yes</asp:ListItem>
+            <asp:ListItem>No</asp:ListItem>
+            </asp:RadioButtonList></p>
+
+        <asp:Button ID="SubmitButton" runat="server" Text="Submit" />
+
+        
     </div>
         
     </form>
