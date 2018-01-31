@@ -16,8 +16,37 @@ namespace Registration
 
         }
 
+        protected void StartEnterButton_Click(object sender, EventArgs e)
+        {
+            SortedList adminList = LoadAdmin();
+
+            string username = StartUsernameTextBox.Text;
+            string password = StartPasswordTextBox.Text;
+
+            if (adminList.ContainsKey(username))
+            {
+                var usernameIndex = adminList.IndexOfKey(username);
+                var passwordIndex = adminList.GetByIndex(usernameIndex);
+                if (password.Equals(passwordIndex))
+                {
+
+                    Response.Redirect("PACareerLinkRegistration.aspx");
+                }
+            }
 
 
+            Label1.Text = "Invalid Username or Password. Please re-enter the username and password.";
+        }
+
+
+        public SortedList LoadAdmin()
+        {
+            SortedList adminList = new SortedList();
+            adminList.Add("Admin1", "password1");
+            adminList.Add("Admin2", "password2");
+            return adminList;
+
+        }//end sorted list
     }//end class
 
 
