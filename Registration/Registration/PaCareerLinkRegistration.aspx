@@ -8,12 +8,12 @@
 <style>
     body 
     {
-        background-color: navy;
+        background-color: white;
         outline-style:solid;
         border: solid;
-        border-color:yellow; 
+        border-color:red; 
         font-family: Verdana;
-        color: white
+        color: darkslateblue
          }
 </style>
 
@@ -21,7 +21,10 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    <h1>PA Career Link Registration</h1>
+    <h1>
+
+        <img src="pacareerlink.jpg" style="height: 93px; width: 459px" /></h1>
+        <h1>Registration Form</h1>
         <p>Please complete the form below to register.</p>
         <p>Name:     <asp:TextBox ID="NameTextBox" runat="server"></asp:TextBox></p>
         <p>Last Four of Social Security Number: <asp:TextBox ID="SSNTextBox" runat="server"></asp:TextBox></p>
@@ -91,9 +94,6 @@
 
         <asp:Button ID="SubmitButton" runat="server" Text="Submit" />
 
-        
-    </div>
-        
-    </form>
+        &nbsp;</form>
 </body>
 </html>
