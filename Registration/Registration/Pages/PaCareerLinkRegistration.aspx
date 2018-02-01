@@ -83,7 +83,12 @@
             <asp:ListItem>Yes</asp:ListItem>
             <asp:ListItem>No</asp:ListItem>
             </asp:RadioButtonList></p>
-
+        
+      <p> Have you ever been convicted of a felony? <asp:RadioButtonList ID="FelonyList" runat="server" Height="16px" Width = "151px" RepeatDirection="Horizontal" TextAlign="Left" >
+          <asp:ListItem> Yes</asp:ListItem>
+          <asp:ListItem> No </asp:ListItem>
+         </asp:RadioButtonList> </p>
+        
         <asp:Button ID="SubmitButton" runat="server" Text="Submit" OnClick="SubmitButton_Click" />
 
         &nbsp;
