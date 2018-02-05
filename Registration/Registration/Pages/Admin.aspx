@@ -18,8 +18,11 @@
             <li><a href="PACareerLinkRegistration.aspx">Registration</a></li>
        </ul>
          <br />
+         <asp:Label ID="HelloLabel" runat="server" Text="Label"></asp:Label>
+         <br />
+        
 
-       <p>Hello Admin!</p>
+       
 
     </div>
 

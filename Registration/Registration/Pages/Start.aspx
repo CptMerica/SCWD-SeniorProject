@@ -17,7 +17,7 @@
     <div>
         <p>Username: <asp:TextBox  ID="StartUsernameTextBox" runat="server"></asp:TextBox></p>
         <br />
-        <p>Password: <asp:TextBox ID="StartPasswordTextBox" runat="server"></asp:TextBox></p>
+        <p>Password: <asp:TextBox ID="StartPasswordTextBox" runat="server" OnTextChanged="StartPasswordTextBox_TextChanged" TextMode="Password"></asp:TextBox></p>
         <asp:Label ID="Label1" runat="server" Text=" "></asp:Label>
         <br />
         <asp:Button ID="StartEnterButton" runat="server" Text="Enter" OnClick="StartEnterButton_Click" Width="82px" BackColor="White" />

@@ -183,6 +183,7 @@
     <Content Include="Pages\Admin.aspx" />
     <Content Include="Pages\pacareerlink.jpg" />
     <Content Include="Pages\PaCareerLinkRegistration.aspx" />
+    <Content Include="Pages\Transaction.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -380,6 +381,13 @@
     </Compile>
     <Compile Include="Pages\PaCareerLinkRegistration.aspx.designer.cs">
       <DependentUpon>PaCareerLinkRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Transaction.aspx.cs">
+      <DependentUpon>Transaction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Transaction.aspx.designer.cs">
+      <DependentUpon>Transaction.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">

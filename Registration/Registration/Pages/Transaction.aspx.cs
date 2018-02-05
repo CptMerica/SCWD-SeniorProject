@@ -7,12 +7,10 @@ using System.Web.UI.WebControls;
 
 namespace Registration.Pages
 {
-    public partial class Admin : System.Web.UI.Page
+    public partial class Transactionaspx : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            HelloLabel.Text = "Hello" + " " + Session["User"].ToString() + "!";
-            
 
         }
     }

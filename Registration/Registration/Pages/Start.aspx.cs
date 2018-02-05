@@ -29,7 +29,7 @@ namespace Registration
                 var passwordIndex = adminList.GetByIndex(usernameIndex);
                 if (password.Equals(passwordIndex))
                 {
-
+                    Session["User"] = username;
                     Response.Redirect("Admin.aspx");
                 }
             }
@@ -47,6 +47,11 @@ namespace Registration
             return adminList;
 
         }//end sorted list
+
+        protected void StartPasswordTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }//end class
 
 
