@@ -16,6 +16,7 @@
         <ul >
             <li><a href="Admin.aspx">Admin</a></li>
             <li><a href="PACareerLinkRegistration.aspx">Registration</a></li>
+            <li><a href="Transaction.aspx">Transaction</a></li>
        </ul>
          <br />
          <asp:Label ID="HelloLabel" runat="server" Text="Label"></asp:Label>
